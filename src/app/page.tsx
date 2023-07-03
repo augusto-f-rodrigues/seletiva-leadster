@@ -1,6 +1,7 @@
+import { LdHeader } from "./components/LdHeader";
 
 export default function Home() {
   return (
-    <h1>Teste</h1>
+    <LdHeader />
   )
 }
