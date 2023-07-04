@@ -1,11 +1,13 @@
 import { FilterButton } from "./FilterButton";
 import { FilterListButton } from "./FilterListButton";
 
+
 export function LdFilters() {
+
   return (
     <section className="section-container">
 
-      <div className="flex flex-row flex-wrap flex-1 max-w-5xl">
+      <div className="lg:flex flex-row flex-wrap flex-1 max-w-5xl hidden">
         <div className="space-x-2 flex-1">
           <FilterButton text="Agências" />
           <FilterButton text="Chatbot" />
@@ -16,6 +18,8 @@ export function LdFilters() {
 
         <FilterListButton />
       </div>
+
+
 
     </section>
   )

@@ -7,3 +7,9 @@
     @apply w-full flex justify-center
   }
 }
+
+@layer utilities {
+  .ld-h-button {
+    @apply border-none bg-ld-blue-200 text-white  hover:text-white hover:border-white hover:bg-blue-500
+  }
+}
