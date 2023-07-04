@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .section-container{
+    @apply w-full flex justify-center
+  }
+}
