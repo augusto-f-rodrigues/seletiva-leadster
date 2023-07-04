@@ -12,7 +12,7 @@ module.exports = {
       },
       colors: {
         "ld-blue": {
-          100: "##F0F8FF",
+          100: "#F0F8FF",
           200: "#0077F4",
         },
       },
