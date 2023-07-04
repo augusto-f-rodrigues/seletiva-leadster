@@ -15,9 +15,7 @@ export function LdSlogan() {
           <span className="text-4xl font-bold text-ld-blue-200">
             Mais Conversão
           </span>
-          <Image className="absolute top-0 -right-3 z-10" alt="asset-header" src={'/asset-header.png'} width={100} height={100} style={{
-            height: 'auto', width: 'auto'
-          }} />
+          <Image className="absolute top-0 -right-3 z-10" alt="asset-header" src={'/asset-header.png'} width={24.5} height={16} />
         </div>
       </div>
 
